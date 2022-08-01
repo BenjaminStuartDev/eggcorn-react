@@ -5,7 +5,7 @@ import LogoutIcon from "../icons/LogoutIcon";
 import NavItem from "./NavItem";
 
 function RHSNavWrapper() {
-  const { setModalStates } = useContext(ModalsContext);
+  const setModalStates = useContext(ModalsContext)[1];
   
   
   return (
